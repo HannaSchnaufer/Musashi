@@ -2,10 +2,8 @@
 <html>
 <head>
 	<title>Kontakt ERA</title>
-</head>
-<body>
-	<main>
-		<style>
+
+<style>
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -67,8 +65,10 @@ p {
 .form-button:hover {
     background-color: #5e0da6;
 }
-
-		</style>
+</style>
+</head>
+<body>
+	<main>
 		<p>Send E-Mail</p>
 		<form class="contact-form" action="contact-form.php" method="post">
 			<input type="text" name="name" placeholder="Fullname">
